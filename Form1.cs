@@ -24,5 +24,12 @@ namespace Okul
         {
            
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            FrmOgrenciNotlar frm = new FrmOgrenciNotlar();
+            frm.numara = txtNumara.Text;
+            frm.Show();
+        }
     }
 }
