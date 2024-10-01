@@ -31,5 +31,12 @@ namespace Okul
             frm.numara = txtNumara.Text;
             frm.Show();
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            FrmOgretmenler frm = new FrmOgretmenler();
+            frm.name = txtNumara.Text;
+            frm.Show();
+        }
     }
 }
